@@ -1,0 +1,238 @@
+#products-section{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 5px;
+    background-color: #33475b;
+    padding: 20px;
+    justify-content: left;
+}
+/* style css for heading in index.php*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 90%;
+}
+/* style css for product boxes */
+.product{
+    margin: 10px;
+    overflow-wrap: break-word;
+    width: 140px;
+    height: 220px;
+    background-color: beige;
+    border-radius: 10px;
+}
+/* style css for product prices */
+.price{
+    text-align: center;
+}
+
+.top-info{
+
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+/*just normal tyle to display product name in product box*/
+.product-name{
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+}
+/* style function to display product details in even and organised manner*/
+.bottom-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* button for buying product*/
+.buy-button{
+    
+    align-self: center;
+}
+/* cart button*/
+.checkout-preview{
+  display:flex;
+  justify-content: center;
+  margin: 15px;
+}
+/* checkout button used in cart*/
+.checkout-button{
+    display:flex;
+    align-items: center;
+}
+
+#total{
+    margin: 5px;
+}
+/* style css for table which will be used to print databases */
+table, th, td {
+  border: 1px solid black;
+}
+
+/* style css container which is used as main div in index.php */
+.general{
+  width: 95%;
+  border-radius: 5px;
+  background-color: #DBF9FC;
+  padding: 20px;
+}
+
+body{
+  margin: 0;
+}
+/* style css to print error test */
+.error-text{
+  font-weight: bold;
+  color:red;
+}
+/* input style used all over code*/
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #ECFFFB; ;
+}
+/* style css container which is used as main div in checkoutPage.php */
+.mainContainer{
+  width: 40%;
+  height: 100vh;
+  background-color: #1E6261;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 5%;
+  padding-bottom: 20%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/* style css container which is used as main div in supportForm.php */
+.mainContainer1{
+  width: 100%;
+  height: 100vh;
+  padding:20%;
+  background-color: #1E6261;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/* style css container which is used as main div in viewDatabase.php */
+.mainContainerX{
+  width: 100%;
+  height: 100%;
+  background-color: #1E6261;
+  padding: 20%;
+  padding-top: 5%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/* style css container which is used as heading div in supportForm,viewOrder and adminLogin.php */
+.headContainer{
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  pading: 10px;
+  text-align: center;
+}
+/* style css container which is used as heading div in viewDatabase.php */
+.headContainerX{
+  width: 70%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  pading: 10px;
+  text-align: center;
+}
+/* style css container which is used as form div in checkoutPage.php adminPage.php viewOrder.php*/
+.container {
+  width: 95%;
+  border-radius: 5px;
+  background-color: #41ABAE;
+  padding:20px;
+  text-align: center;
+  justify-content: center;
+}
+/* style css container which is used as form div in supportForm.php */
+.container1 {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #41ABAE;
+  padding:20px;
+  text-align: center;
+  justify-content: center;
+}
+/* style css container which is used as form div in viewDatabase.php */
+.containerX {
+  width: 70%;
+  border-radius: 5px;
+  background-color: #41ABAE;
+  padding:20px;
+  text-align: center;
+  justify-content: center;
+}
+/*usual button style i.e. hover button*/
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #1E6261; 
+  color: white; 
+  border: 2px solid #4CAF50;
+}
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+/*group of buttons used in super secret admin page*/
+.button-group .buttonX {
+  background-color: #4CAF50;
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+.button-group .buttonX:hover {
+  background-color: black;
+  color: white;
+}
+
+.text{
+  background-color: #ECFFFB;
+}
+/* input text style for password*/
+.input[type=text], input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/*usual form style which is used all over code */
+form {border: 2px solid #f1f1f1;}
+/*html file just to resize website to 100% of screen size*/
+html{
+  width: 100%;
+}
